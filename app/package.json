@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "app": "node index.js"
+    "app": "node index.js",
+    "predev": "node ../scripts/security-guard.js",
+    "prebuild": "node ../scripts/security-guard.js",
+    "prestart": "node ../scripts/security-guard.js"
   },
   "keywords": [],
   "author": "",
